@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'recommend-view',
   props: {
     recommends: {
       type: Array,

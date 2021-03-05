@@ -1,0 +1,10 @@
+# 重要的配置文件，用来统一风格（缩进），cli3默认不生成，需要自己引入
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true

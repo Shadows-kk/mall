@@ -19,7 +19,8 @@ export default {
   line-height: 44px;
   /* 文字居中 */
   text-align: center;
-  box-shadow: 0,1px,1px rgba(100, 100, 100, 0.1);
+  box-shadow: 0,1px,1px rgba(100, 100, 100, 0.1); 
+  border-bottom: 1px solid rgb(143, 143, 143);
 }
 .left,.right{
   width: 60px;

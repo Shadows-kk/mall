@@ -9,9 +9,8 @@ export function request(config){
 
     // a.axios的拦截器 请求拦截
     instance.interceptors.request.use(config => {
-      console.log('拦截器的数据');
-      console.log(config);
-     
+      // console.log('拦截器的数据');
+      // console.log(config);
       return config
     },err => {
       console.log(err);

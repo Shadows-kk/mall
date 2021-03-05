@@ -37,5 +37,7 @@
 </script>
 
 <style scoped>
-
+tab-bar{
+  width: 100%;
+}
 </style>
