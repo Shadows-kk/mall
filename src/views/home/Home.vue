@@ -112,7 +112,7 @@
       // 2.取消全局事件的监听
       this.$bus.$off('itemImageLoad',this.itemImgListener)
     },
-    computed: { 
+    computed: {
       showGoods(){
         return this.goods[this.currentType].list
       }

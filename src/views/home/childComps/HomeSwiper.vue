@@ -35,7 +35,15 @@ export default {
          this.$emit('swiperImageLoad')
          this.isLoad = true
        }
-    }
+    },
+    stopTimer() {
+        this.$refs.swiper.stopTimer()
+    },
+    startTimer() {
+        if (this.$refs.swiper) {
+            this.$refs.swiper.startTimer()
+        }
+    },
   }
 }
 </script>
