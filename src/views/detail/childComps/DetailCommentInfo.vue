@@ -45,7 +45,7 @@ export default {
       return formatDate(date,'yyyy-MM-dd')
     }
   },
-}
+} 
 </script>
 
 <style scoped>
